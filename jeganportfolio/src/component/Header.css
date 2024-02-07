@@ -1,0 +1,29 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alata&family=Caveat:wght@400;500&family=Crimson+Text:ital,wght@1,700&family=Montserrat:wght@300;600&family=Poppins:wght@400;500&display=swap'); */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* font-family: 'Alata', sans-serif;
+font-family: 'Caveat', cursive;
+font-family: 'Crimson Text', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+
+.Header-background{
+    background-image: url(../component/Images/Header-img.jpg);
+    height:400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+   
+ 
+}
+.img-icon {
+    height: 80px;
+}
+#img-icon{
+    height: 116px;
+}
