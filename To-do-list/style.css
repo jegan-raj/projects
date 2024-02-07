@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.to-do-grid,
+.to-do-list-grid {
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+
+}
+
+.to-do-list-grid {
+    margin-bottom: 10px;
+    align-items: stretch;
+}
+
+.name-inpu,
+.date-input {
+    padding: 6px;
+
+}
+
+.add-btn {
+    background-color: green;
+    border: none;
+    color: #ffff;
+    font-size: 15px;
+    cursor: pointer;
+
+
+}
+
+.delete-btn {
+    background-color: darkred;
+    border: none;
+    color: #ffff;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px;
+
+
+}
